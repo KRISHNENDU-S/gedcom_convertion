@@ -1,0 +1,127 @@
+{
+  "head": {
+    "sour": {
+      "value": "gedcom.org",
+      "name": "The GEDCOM Site",
+      "vers": "5.5.5",
+      "corp": {
+        "value": "gedcom.org",
+        "addr": {
+          "city": "LEIDEN"
+        },
+        "_www": "www.gedcom.org",
+        "wwwTag": "WWW"
+      }
+    },
+    "date": {
+      "value": "2 Oct 2019",
+      "time": "0:00:00"
+    },
+    "submRef": "U1",
+    "file": "SSMARR.GED",
+    "gedc": {
+      "vers": "5.5.5",
+      "form": "LINEAGE-LINKED",
+      "extensions": {
+        "folg.more_tags": [
+          {
+            "tag": "VERS",
+            "value": "5.5.5",
+            "parentTagName": "FORM"
+          }
+        ]
+      }
+    },
+    "charset": {
+      "value": "UTF-8"
+    },
+    "lang": "English"
+  },
+  "subms": [
+    {
+      "id": "U1",
+      "addr": {
+        "city": "Leiden "
+      },
+      "name": "gedcom.org",
+      "_www": "www.gedcom.org",
+      "wwwTag": "WWW"
+    }
+  ],
+  "people": [
+    {
+      "id": "I1",
+      "names": [
+        {
+          "value": "John /Smith/",
+          "givn": "John",
+          "surn": "Smith"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "1 Sep 1991",
+          "place": "Philadelphia, Philadelphia, Pennsylvania, United States of America"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "names": [
+        {
+          "value": "Steven /Stevens/",
+          "givn": "Steven",
+          "surn": "Stevens"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "8 Aug 1988",
+          "place": "Seattle, King, Washington, United States of America"
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "F1",
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "MARR",
+          "date": "26 Jun 2015",
+          "place": "Portland, Mutnomah, Oregon, United States of America"
+        }
+      ]
+    }
+  ]
+}

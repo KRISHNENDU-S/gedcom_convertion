@@ -1,0 +1,209 @@
+{
+  "head": {
+    "sour": {
+      "value": "gedcom.org",
+      "name": "The GEDCOM Site",
+      "vers": "5.5.5",
+      "corp": {
+        "value": "gedcom.org",
+        "addr": {
+          "city": "LEIDEN"
+        },
+        "_www": "www.gedcom.org",
+        "wwwTag": "WWW"
+      }
+    },
+    "date": {
+      "value": "2 Oct 2019",
+      "time": "0:00:00"
+    },
+    "submRef": "U1",
+    "file": "REMARR.GED",
+    "gedc": {
+      "vers": "5.5.5",
+      "form": "LINEAGE-LINKED",
+      "extensions": {
+        "folg.more_tags": [
+          {
+            "tag": "VERS",
+            "value": "5.5.5",
+            "parentTagName": "FORM"
+          }
+        ]
+      }
+    },
+    "charset": {
+      "value": "UTF-8"
+    },
+    "lang": "English"
+  },
+  "subms": [
+    {
+      "id": "U1",
+      "addr": {
+        "city": "Leiden "
+      },
+      "name": "gedcom.org",
+      "_www": "www.gedcom.org",
+      "wwwTag": "WWW"
+    }
+  ],
+  "people": [
+    {
+      "id": "I1",
+      "names": [
+        {
+          "value": "Peter /Sweet/",
+          "givn": "Peter",
+          "surn": "Sweet"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "7 Jul 1877"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "names": [
+        {
+          "value": "Mary /Encore/",
+          "givn": "Mary",
+          "surn": "Encore"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "F",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "4 May 1876"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "names": [
+        {
+          "value": "Juan /Donalds/",
+          "givn": "Juan",
+          "surn": "Donalds"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "8 Aug 1888"
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "F1",
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "MARR",
+          "date": "1 Jan 1900",
+          "place": "Amsterdam, Noord-Holland, Netherlands"
+        },
+        {
+          "tag": "DIV",
+          "date": "10 Oct 1910",
+          "place": "Amsterdam, Noord-Holland, Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "husbandRefs": [
+        {
+          "ref": "I3"
+        }
+      ],
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "MARR",
+          "date": "11 Nov 1911",
+          "place": "Amsterdam, Noord-Holland, Netherlands"
+        },
+        {
+          "tag": "DIV",
+          "date": "12 Dec 1912",
+          "place": "Amsterdam, Noord-Holland, Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "MARR",
+          "date": "1 Jan 1912",
+          "place": "Amsterdam, Noord-Holland, Netherlands"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+*~
+*.lock
+*.swp
+target
+.idea
+*.iml
+nbproject
+out
+.DS_Store

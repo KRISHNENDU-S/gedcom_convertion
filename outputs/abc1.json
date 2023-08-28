@@ -1,0 +1,255 @@
+{
+  "head": {
+    "sour": {
+      "value": "GS",
+      "name": "GEDCOM Specification",
+      "vers": "5.5.5",
+      "corp": {
+        "value": "gedcom.org",
+        "addr": {
+          "city": "LEIDEN"
+        },
+        "_www": "www.gedcom.org",
+        "wwwTag": "WWW"
+      }
+    },
+    "date": {
+      "value": "2 Oct 2019",
+      "time": "0:00:00"
+    },
+    "submRef": "U1",
+    "file": "555Sample.ged",
+    "gedc": {
+      "vers": "5.5.5",
+      "form": "LINEAGE-LINKED",
+      "extensions": {
+        "folg.more_tags": [
+          {
+            "tag": "VERS",
+            "value": "5.5.5",
+            "parentTagName": "FORM"
+          }
+        ]
+      }
+    },
+    "charset": {
+      "value": "UTF-8"
+    },
+    "lang": "English"
+  },
+  "subms": [
+    {
+      "id": "U1",
+      "addr": {
+        "adr1": "1900 43rd Street West",
+        "city": "Billings",
+        "stae": "Montana",
+        "post": "68051",
+        "ctry": "United States of America"
+      },
+      "phon": "+1 (406) 555-1232",
+      "name": "Reldon Poulson"
+    }
+  ],
+  "people": [
+    {
+      "id": "I1",
+      "names": [
+        {
+          "value": "Robert Eugene /Williams/",
+          "givn": "Robert Eugene",
+          "surn": "Williams"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "2 Oct 1822",
+          "place": "Weston, Madison, Connecticut, United States of America",
+          "sourceCitations": [
+            {
+              "ref": "S1",
+              "page": "Sec. 2, p. 45"
+            }
+          ]
+        },
+        {
+          "tag": "DEAT",
+          "date": "14 Apr 1905",
+          "place": "Stamford, Fairfield, Connecticut, United States of America"
+        },
+        {
+          "tag": "BURI",
+          "place": "Spring Hill Cemetery, Stamford, Fairfield, Connecticut, United States of America"
+        },
+        {
+          "tag": "RESI",
+          "date": "from 1900 to 1905"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "names": [
+        {
+          "value": "Mary Ann /Wilson/",
+          "givn": "Mary Ann",
+          "surn": "Wilson"
+        }
+      ],
+      "fams": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "F",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "BEF 1828",
+          "place": "Connecticut, United States of America"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "names": [
+        {
+          "value": "Joe /Williams/",
+          "givn": "Joe",
+          "surn": "Williams"
+        }
+      ],
+      "famc": [
+        {
+          "ref": "F1"
+        },
+        {
+          "pedi": "adopted",
+          "ref": "F2"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "value": "M",
+          "tag": "SEX"
+        },
+        {
+          "tag": "BIRT",
+          "date": "11 Jun 1861",
+          "place": "Idaho Falls, Bonneville, Idaho, United States of America"
+        },
+        {
+          "tag": "ADOP",
+          "date": "16 Mar 1864"
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "F1",
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "wifeRefs": [
+        {
+          "ref": "I2"
+        }
+      ],
+      "childRefs": [
+        {
+          "ref": "I3"
+        }
+      ],
+      "eventsFacts": [
+        {
+          "tag": "MARR",
+          "date": "Dec 1859",
+          "place": "Rapid City, Pennington, South Dakota, United States of America"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "husbandRefs": [
+        {
+          "ref": "I1"
+        }
+      ],
+      "childRefs": [
+        {
+          "ref": "I3"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titl": "Madison County Birth, Death, and Marriage Records",
+      "abbr": "Madison BMD Records",
+      "repo": {
+        "ref": "R1",
+        "caln": "13B-1234.01"
+      },
+      "extensions": {
+        "folg.more_tags": [
+          {
+            "tag": "DATA",
+            "children": [
+              {
+                "tag": "EVEN",
+                "value": "BIRT, DEAT, MARR",
+                "children": [
+                  {
+                    "tag": "DATE",
+                    "value": "FROM Jan 1820 TO DEC 1825"
+                  },
+                  {
+                    "tag": "PLAC",
+                    "value": "Madison, Connecticut, United States of America"
+                  }
+                ]
+              },
+              {
+                "tag": "AGNC",
+                "value": "Madison County Court"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "repositories": [
+    {
+      "id": "R1",
+      "name": "Family History Library",
+      "addr": {
+        "adr1": "35 N West Temple Street",
+        "city": "Salt Lake City",
+        "stae": "Utah",
+        "post": "84150",
+        "ctry": "United States of America"
+      }
+    }
+  ]
+}

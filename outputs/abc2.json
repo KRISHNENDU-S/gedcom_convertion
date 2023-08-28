@@ -1,0 +1,29 @@
+{
+  "head": {
+    "sour": {
+      "value": "gedcom.org"
+    },
+    "gedc": {
+      "vers": "5.5.5",
+      "form": "LINEAGE-LINKED",
+      "extensions": {
+        "folg.more_tags": [
+          {
+            "tag": "VERS",
+            "value": "5.5.5",
+            "parentTagName": "FORM"
+          }
+        ]
+      }
+    },
+    "charset": {
+      "value": "UTF-8"
+    }
+  },
+  "subms": [
+    {
+      "id": "U",
+      "name": "gedcom.org"
+    }
+  ]
+}

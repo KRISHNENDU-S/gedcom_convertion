@@ -1,0 +1,2 @@
+java -cp target/gedcom.jar org.folg.gedcom.tools.Gedcom2Json -i "C:\FTW\abc6.GED" -o mytree.json
+
